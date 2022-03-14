@@ -16,7 +16,6 @@ const useStyles = makeStyles((theme) => ({
     sidebarList:{
         display: 'flex',
         flexDirection: 'column',
-        // -webkit-box-align: 'center',
         alignItems: 'center',
         margin: '0px',
         padding: '0px',
