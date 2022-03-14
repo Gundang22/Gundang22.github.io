@@ -12,17 +12,10 @@ import './style.css';
 const Home = ({toAbout}) => {
     const classes = useStyles();
 
-    const [s, ss] = useState(true);
-
     const getWindowHeight = () => {
         const {innerHeight: height} = window;
         return height;
     };
-
-    const togle = () => {
-        ss(!s);
-    }
-
 
     const [height, setHeight] = useState("height:" + getWindowHeight()+"px");
     useEffect(() => {
@@ -32,11 +25,6 @@ const Home = ({toAbout}) => {
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);
-
-    useEffect(() => {
-        console.log(s);
-    }, [s]);
-
 
     return (
         <div className={classes.header}>
