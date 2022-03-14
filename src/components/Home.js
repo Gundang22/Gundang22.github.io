@@ -23,7 +23,7 @@ const Home = () => {
         <div className={classes.contentContainer}>
             <Scrollspy
                 style={{padding:'0px', position:'absolute'}}
-                items={['nav1', 'nav2']}
+                items={['part1', 'part2']}
                 currentClassName={classes.active}
             >
                 <div style={{opacity: '0', transition:'0.7s'}}>
@@ -39,7 +39,7 @@ const Home = () => {
                 
                 <Header toAbout={toAbout} />
             </div>
-            <div id='nav2'>
+            <div id='part2'>
                 <div className='about' style={{paddingBottom: '130px'}} id='about'>
                     <About />
                 </div>

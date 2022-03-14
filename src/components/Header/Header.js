@@ -28,7 +28,7 @@ const Home = ({toAbout}) => {
 
     return (
         <div className={classes.header}>
-            <div id='nav1'/>
+            <div id='part1'/>
             <div className={classes.headerContent}>
                 <div className={classes.headerContentFont} style={{backgroundImage: `url(${backgroundBar})`}}>
                     <Typography variant='h2' className={classes.headerName}>Jun Wang</Typography>
