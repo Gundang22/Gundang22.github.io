@@ -36,7 +36,6 @@ const Home = () => {
             
 
             <div className='header' style={{paddingBottom: '150px'}} id='home'>
-                
                 <Header toAbout={toAbout} />
             </div>
             <div id='part2'>

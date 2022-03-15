@@ -1,4 +1,3 @@
-import './App.css';
 import Home from './components/Home.js';
 import RightSidebar from './components/RightSidebar/RightSidebar';
 
