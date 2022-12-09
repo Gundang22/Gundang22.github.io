@@ -24,7 +24,6 @@ const About = () => {
                             </Grid>
                             <Grid item xs={12} md={9}>
                                 <Typography className={classes.intro}>
-                                    Change made
                                     Hey, my name is Jun. I am a current 4th-year student at 
                                     <span className={classes.colored}> Simon Fraser University </span>
                                     major in 
