@@ -2,7 +2,7 @@ import React from 'react';
 import useStyles from './styles';
 import { Typography, Grid } from '@mui/material';
 import { useTheme } from "@material-ui/core";
-import Selfie from '../images/selfie.jpg';
+import Selfie from '../images/selfie1.jpg';
 import FadeInSection from '../FadeIn/FadeInSection';
 
 
